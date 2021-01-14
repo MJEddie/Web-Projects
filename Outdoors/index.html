@@ -142,7 +142,15 @@
         <p>&copy; 2020 Outdoorsie. All rights reserved</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script>
+        document.querySelector('.open').addEventListener('click', () => {
+            document.querySelector('.nav-list').classList.add('active');
+        });
+
+        document.querySelector('.close').addEventListener('click', () => {
+            document.querySelector('.nav-list').classList.remove('active');
+        });
+    </script>
 
 </body>
 
