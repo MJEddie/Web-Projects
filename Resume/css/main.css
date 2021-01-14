@@ -309,3 +309,48 @@ h2.catagory {
 .portfolio:nth-child(2n) .portfolio-info {
     background-color: rgba(223, 225, 229, .8);
 }
+
+#contact>div {
+    padding: 100px 0;
+}
+
+#contact em {
+    font-style: normal;
+    color: #ae2740;
+}
+
+.contact.method {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 100px 0;
+}
+
+.contact-way {
+    display: flex;
+    width: 30%;
+    margin: 0;
+    padding: 30px;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 0px 0px 18px 0 #0000002c;
+    transition: box-shadow .3s ease;
+}
+
+.contact-way:hover {
+    box-shadow: 0px 0px 5px 0 #0000002c;
+}
+
+.contact-way .icon {
+    height: 100px;
+    width: 100px;
+}
+
+.contact-way .icon img {}
+
+.contact-way .contact-info {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+}
