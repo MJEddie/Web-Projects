@@ -253,3 +253,59 @@ h2.catagory {
     color: #504e70;
     margin: 0;
 }
+
+#content a {
+    color: #000;
+    text-decoration: none;
+}
+
+.portfolios .container {
+    width: 1170px;
+    margin: auto;
+}
+
+.portfolio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.portfolios h2 {
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.portfolio p {
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+.portfolio .thumbnail {
+    width: 55%;
+    flex-shrink: 0;
+}
+
+.portfolio .thumbnail img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.portfolio-info {
+    width: 55%;
+    flex-shrink: 0;
+    padding: 50px 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.portfolio> :first-child {
+    margin-right: -10%;
+}
+
+.portfolio:nth-child(2n+1) .portfolio-info {
+    background-color: rgba(242, 236, 232, .8);
+}
+
+.portfolio:nth-child(2n) .portfolio-info {
+    background-color: rgba(223, 225, 229, .8);
+}
