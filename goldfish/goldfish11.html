@@ -78,8 +78,44 @@
             transform: rotate(-45deg);
         }
         
+        .item:hover .fa {
+            animation: shake .2s linear infinite alternate;
+        }
+        
+        .item:hover .fa-thumbs-up {
+            animation: upsideDown .25s linear 1 alternate forwards;
+            animation: thumbsUp .3s linear infinite alternate;
+        }
+        
         .item .txt {
             padding: 20px 20px 2em;
+        }
+        
+        @keyframes shake {
+            0% {
+                transform: rotate(-10deg);
+            }
+            100% {
+                transform: rotate(10deg);
+            }
+        }
+        
+        @keyframes upsideDown {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(-180deg);
+            }
+        }
+        
+        @keyframes thumbsUp {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-40px);
+            }
         }
     </style>
 </head>
