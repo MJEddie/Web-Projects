@@ -127,6 +127,88 @@ p {
     color: #d6b161;
 }
 
+.contact-info {
+    color: #7e7e7e;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-info a {
+    color: #7e7e7e;
+    text-decoration: none;
+}
+
+.contact-form {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.contact-form .col-6,
+.contact-form .col-12 {
+    margin-bottom: 15px;
+    padding: 0px 15px 0px 0px;
+}
+
+.contact-form .col-6.col-12.btn-mid,
+.contact-form .col-12.col-12.btn-mid {
+    text-align: center;
+}
+
+.contact-form label {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: #7e7e7e;
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 6px 12px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+}
+
+.contact-form textarea {
+    height: 95px;
+}
+
+.contact-form button {
+    margin-top: 0;
+}
+
+.contact-form select {
+    display: inline-block;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+    color: #7e7e7e;
+    padding: 6px 12px;
+    border: 1px solid #e5e5e5;
+    width: 100%;
+}
+
+.contact-form option {
+    font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.contact #content .title {
+    margin-bottom: 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.contact .content {
+    padding: 100px 0;
+}
+
+.contact .contact-info .address {
+    margin-bottom: 30px;
+}
+
 #content>div {
     padding-top: 100px;
 }
