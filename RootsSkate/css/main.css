@@ -226,9 +226,8 @@ p {
 .slider span {
     position: absolute;
     margin: 0 auto;
-    top: 56%;
-    left: 28.5%;
-    transform: translateY(-50%);
+    top: calc((550px - 99.2px) / 2);
+    left: calc((1518.4px - 726.16px) / 2);
 }
 
 .slider h1 {
